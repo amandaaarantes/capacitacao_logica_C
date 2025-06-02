@@ -13,7 +13,8 @@ int main() {
 
     // Modifique o valor do polegar e do mindinho:
 
-
+    mao[0] = 0;
+    mao[4] = 0;
     
 
     for (int i = 0; i < 5; i++) {

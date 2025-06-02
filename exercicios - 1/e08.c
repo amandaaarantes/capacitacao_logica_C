@@ -13,9 +13,9 @@ int main() {
     float pi = 3.14159;
 
     // Complete conforme o enunciado
-    printf( ??? );
-    printf( ??? );
-    printf( ??? );
+    printf("Variável a: %d\n", a );
+    printf("Variável b: %c\n", b );
+    printf("Variável pi: %f\n", pi );
 
     return 0;
 }

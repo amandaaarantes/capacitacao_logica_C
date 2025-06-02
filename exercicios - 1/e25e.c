@@ -12,7 +12,7 @@
 #include <stdio.h>
 
 int main() {
-    int numeros[] = {3, 7, 12, 25, 30};
+    int numeros[] = {3, 7, 12, 25, 30}, i;
     int tamanho = 5;
     int alvo;
     int encontrado = 0;
@@ -21,11 +21,21 @@ int main() {
     scanf("%d", &alvo);
 
     // Lógica:
+    // Mensagem de resultado:
+    for(i = 0; i < tamanho; i++) {
+        if(numeros[i] == alvo){
+            printf("Número presente!\n");
+            break;
+        }
+        else if(i == (tamanho-1) && numeros[i] != alvo)
+            printf("Número ausente!\n");            
+    }
+
 
 
     
 
-    // Mensagem de resultado:
+   
 
 
 

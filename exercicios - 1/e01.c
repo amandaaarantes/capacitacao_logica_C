@@ -11,9 +11,9 @@
 */
 int main() {
     // Declare as variáveis abaixo:
-    
-
-
+    int numero = 81;
+    float valor = 7.7;
+    char simbolo = '!';
 
     return 0;
 }

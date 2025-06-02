@@ -11,6 +11,11 @@ int main() {
     
     // Implemente a lógica:
 
+    for(i = 0; i <= 18; i += 2) 
+        printf("%d ", i);
+
+    printf("\n");
+
 
 
 

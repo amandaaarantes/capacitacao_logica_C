@@ -31,7 +31,9 @@ int main() {
     
     // Calcula a combinação (Comb)
 
+    Comb = (fatorial(N))/((fatorial(K))*(fatorial(N-K))); 
     
+    printf("Resultado: %d\n", Comb);
 
     return 0;
 }

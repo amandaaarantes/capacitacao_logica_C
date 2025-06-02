@@ -12,7 +12,10 @@ int main() {
     int result;
 
     // Faça a comparação aqui:
-
+    if(A > B)
+        result = 1;
+    else
+        result = 0;
 
     // Código de validação
     if (result == 0) {

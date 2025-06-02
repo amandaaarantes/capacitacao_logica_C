@@ -13,8 +13,9 @@
 int main(){
 
     // crie seu código aqui:
+    float A = 3.14, B = 7.54, C;
 
-
+    C = A*B;
 
     // validação
     printf("Valor de C para checagem: %f", C);
